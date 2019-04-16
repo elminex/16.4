@@ -1,4 +1,4 @@
-let url = 'http://api.icndb.com/jokes/random';
+let url = 'https://api.icndb.com/jokes/random';
 let button = document.getElementById('get-joke');
 button.addEventListener('click', () => getJoke());
 let paragraph = document.getElementById('joke');
